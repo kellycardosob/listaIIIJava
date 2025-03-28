@@ -9,5 +9,7 @@ public class produto {
 
         int juros = (valor + (valor * 10 / 100));
         System.out.println("O valor desse produto com aumento de 10% vai ficar R$ : " + juros);
+
+        scanner.close();
     }
 }

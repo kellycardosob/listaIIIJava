@@ -9,5 +9,7 @@ public class graus {
 
         int centigrados = (fahrenheit - 32) * 5 / 9;
         System.out.println("A temperatura em Fahrenheit eh de " + fahrenheit + " e a temperatura em centigrados eh de " + centigrados);
+
+        scanner.close();
     }
 }

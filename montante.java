@@ -16,5 +16,7 @@ public class montante {
 
         int m = c * (int) Math.pow(1 + i/100, n);
         System.out.println("O montante dessa aplicacao é de: " + m);
+
+        scanner.close();
     }
 }
