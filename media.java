@@ -15,5 +15,7 @@ public class media {
 
         int media = (num1 + num2) / 2;
         System.out.println("Media aritmetica: " + media);
+
+        scanner.close();
     }
 }
